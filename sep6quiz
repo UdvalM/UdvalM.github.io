@@ -1,0 +1,28 @@
+Last login: Wed Sep  4 22:53:27 on ttys000
+altanzulpurev@pomme ~ % date 
+Fri Sep  6 08:08:05 EDT 2024
+altanzulpurev@pomme ~ % cd Desktop 
+altanzulpurev@pomme Desktop % ls
+Screenshot 2024-09-05 at 8.22.18 PM.png
+altanzulpurev@pomme Desktop % mkdir quiz
+altanzulpurev@pomme Desktop % ls
+Screenshot 2024-09-05 at 8.22.18 PM.png
+quiz
+altanzulpurev@pomme Desktop % cd quiz 
+altanzulpurev@pomme quiz % vim move_me.txt  
+altanzulpurev@pomme quiz % vim copy_me.txt
+altanzulpurev@pomme quiz % ls
+copy_me.txt	move_me.txt
+altanzulpurev@pomme quiz % mkdir destination
+altanzulpurev@pomme quiz % ls
+copy_me.txt	destination	move_me.txt
+altanzulpurev@pomme quiz % mv move_me.txt destination 
+altanzulpurev@pomme quiz % cp copy_me.txt destination 
+altanzulpurev@pomme quiz % ls
+copy_me.txt	destination
+altanzulpurev@pomme quiz % rm copy_me.txt 
+altanzulpurev@pomme quiz % ls
+destination
+altanzulpurev@pomme quiz % date 
+Fri Sep  6 08:10:14 EDT 2024
+altanzulpurev@pomme quiz % 
