@@ -1,4 +1,4 @@
-#!/bin/bash
+#/bin/bash
 
 # Prompt for the location of the private key, with a default of ~/.ssh/id_rsa
 read -p "Enter the path to your private key (default: ~/.ssh/id_rsa): " private_key_path
