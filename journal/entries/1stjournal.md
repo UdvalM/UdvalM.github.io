@@ -1,27 +1,8 @@
-# October 2nd, 2024
+#Command Line Tools Entry
 
-Langston HughesLangston Hughes Missouri
+## Terminal, git, vim and Markdown
 
-In time of silver rain
-The earth puts forth new life again,
-Green grasses grow
-And flowers lift their heads,
-And over all the plain
-The wonder spreads
-
-Of Life,
-Of Life,
-Of life!
-
-In time of silver rain
-The butterflies lift silken wings
-To catch a rainbow cry,
-And trees put forth new leaves to sing
-In joy beneath the sky
-As down the roadway
-Passing boys and girls
-Go singing, too,
-
-In time of silver rain When spring
-And life
-Are new.
+1. Terminal is very important because you use it to do everything in this class and if you are comfortable with the terminal, you are basically set for the year. This is my 2nd year using terminal, and I have gotten pretty used to it, I think it took me like a week or two to get used to navigating through it efficiently. If you are trying to learn terminal, I would recommend going through the apple's little cheat sheet that you can find on their website, and start practicing regularly so you are comfortable! 
+2. Git puts your work on your profile in github, if you don't push your changes, your profile will remain the same, so i think its important in the sense of that. This is also my 2nd year using git, and it also took me a week or two to really get used to it. Git is pretty easy to use, you just gotta memorize the three step process by heart, I mean if you do it often enough you will memorize them pretty quickly. My advice would be just get comfortable using it, just make random commits just to practice, I do experimental commit on every repository I make.
+3. Vim allows you to make changes in the stuff you have on your computer such as your programs and texts. 2nd year also, I haven't really explored the entirety of the vim yet, I just scratched the surface. However, it is very efficient and useful tool, and it will take some time to memorize certain commands and just like the others, practice, practice and practice!! 
+4. Markdown is a simple and efficient programming language that are easy to understand for the human comprehension. Suprisingly this is my 1st year learning about it! I found it really interesting and I was suprised about why Jeff haven't mentioned about it. My advice, would be to learn about it earlier so you don't lowkey waste your time trying to add a simple text but needs to code something to put it. 
