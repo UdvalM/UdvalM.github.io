@@ -7,6 +7,6 @@ This lesson is from [this website](https://flexbooks.ck12.org/cbook/ck-12-middle
 ### Defining Density
 
 Density in an important physical property of matter. 
-For example 
+For example, these balls have the same size but its density different, therefore its masses are vary.  
 
-![figure 2](balls.png)
+![balls](balls.png)
