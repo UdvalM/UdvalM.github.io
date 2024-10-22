@@ -10,3 +10,9 @@ Density in an important physical property of matter.
 For example, these balls have the same size but its density different, therefore its masses are vary.  
 
 ![balls](balls.png)
+
+### Calculating Density
+
+The density of matter is actually the amount of matter in a given space. The amount of matter is measured by its mass, and the space matter takes up is measured by its volume. Therefore, the density of matter can be calculated with this formula:
+
+$density = /frac{mass}{volume}$
