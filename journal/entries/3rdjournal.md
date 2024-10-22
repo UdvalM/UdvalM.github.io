@@ -11,13 +11,17 @@ For example, these balls have the same size but its density different, therefore
 
 ![balls](balls.png)
 
+Density has the same concept from the photo above, they may have the same shape and appear the same, the bowling ball is still a lot heavier because of its density. One has air inside and the other have matter inside. 
+
 ### Calculating Density
 
-The density of matter is actually the amount of matter in a given space. The amount of matter is measured by its mass, and the space matter takes up is measured by its volume. Therefore, the density of matter can be calculated with this formula:
+So as we learned, the density of matter is actually the amount of matter in a given space. The amount of matter is measured by its mass, and the space matter takes up is measured by its volume. Therefore, the density of matter can be calculated with this formula:
 
 $$density = \frac{mass}{volume}$$
 
 ### Densities of some common substances
+
+Here are examples;
 
 |Substance|Density, g/mL|
 |---------|-------------|
