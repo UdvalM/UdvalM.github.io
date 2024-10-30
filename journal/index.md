@@ -2,3 +2,4 @@
 - [Command Line Tools](entries/1stjournal.md)
 - [Encryption Activity](entries/2ndjournal.md)
 - [Lesson Summary](entries/3rdjournal.md)
+- [Word Press Project](entries/4thjournal.md)
