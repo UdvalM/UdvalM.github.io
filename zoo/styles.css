@@ -4,8 +4,19 @@ body{
 header{
 	background-color:#1e8449;
 	color:white;
+	text-align: center;
+}
+h2{
+	text-align:center;
+	background-color:#1e8449;
+	color:white;
+}
+table{
+	width: 100%;
 }
 td, th{
 	border:2px solid;
-        border-collapse:collapse; 
-} 
+        border-collapse:collapse;
+	text-align:center;
+	height: 50px; 
+}
