@@ -1,0 +1,11 @@
+body{
+	font-family: "monaco", monospace;
+}
+header{
+	background-color:#1e8449;
+	color:white;
+}
+td, th{
+	border:2px solid;
+        border-collapse:collapse; 
+} 
