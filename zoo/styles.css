@@ -1,15 +1,17 @@
 body{
-	font-family: "monaco", monospace;
+	font-family:"console", "monaco", monospace;
 }
 header{
 	background-color:#1e8449;
 	color:white;
 	text-align: center;
+	text-transform:uppercase;
 }
 h2{
 	text-align:center;
 	background-color:#1e8449;
 	color:white;
+	text-transform:uppercase;
 }
 table{
 	width: 100%;
