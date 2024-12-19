@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+        <title>GRID</title>
+        <script src="../js/init.js"></script>
+   <head>
+
+   <style>
+   #grid{
+        display:grid;
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
+        height: 80vh;
+        gap: 10px;
+   }
+   #grid > div {
+	display: flex;
+	justify-content: center;
+	font-size: 2rem;
+   }
+   #A{
+	background-color: purple;
+        grid-column-start: 1;
+        grid-column-end: 3;
+   }
+   #B{
+	background-color: purple;
+	grid-column-start: 3;
+	grid-row-start: 1;
+	grid-row-end: 3;
+   }
+   #C{
+	background-color: purple;
+	grid-column-start: 1;
+	grid-row-start: 2;
+	grid-row-end: 4;
+   }
+   #D{
+        background-color: purple;
+        grid-row-start: 2;
+        grid-column-start: 2;
+   }
+   #E{
+	background-color: purple;
+	grid-column-start: 2;
+	grid-column-end: 4;
+	grid-row-start: 3;
+   }
+   </style>
+
+   <body>
+        <div id="grid">
+	     <div id="A">A</div>
+	     <div id="B">B</div>
+             <div id="C">C</div>
+             <div id="D">D</div>
+             <div id="E">E</div>
+        </div>
+   </body>
+</html>
