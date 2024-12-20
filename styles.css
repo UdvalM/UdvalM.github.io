@@ -1,0 +1,34 @@
+#grid{
+   display:grid;
+   grid-template-rows: 1fr 3fr 1fr;
+   grid-template-columns: 1fr 3fr 1fr;
+   height: 80vh;
+   gap: 10px;
+}
+#grid > div {
+   display: flex;
+   justify-content: center;
+   font-size: 2rem;
+}
+#header{
+   background-color: purple;
+   grid-column: 1/4;
+}
+#left_side{
+   background-color: purple;
+   grid-row-start: 2;
+}
+#right_side{
+   background-color: purple;
+   grid-row-start: 2;
+   grid-column-start: 3;
+}
+#main{
+   background-color: purple;
+   grid-row-start: 2;
+   grid-column-start: 2;
+}
+#foot{
+   background-color: purple;
+   grid-column: 1/4;
+}
