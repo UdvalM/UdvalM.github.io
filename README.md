@@ -4,7 +4,9 @@ This is my second year learning about computers, I know python and currently lea
 
 ## Major
 
-I am currently undecided my major and what I'm interested it because I have very colliding interests. I love social/criminal justice but I also love mechatronics engineering, I am considering majoring in criminology at georgmason as my undergraduate degree for law school, or I could just go for my mechatronics enineering and if it sticks I would pursue. The reason I'm trying to decide early on because I want to be efficient with my time and have, suppose more experience early on if that makes sense. 
+~I am currently undecided my major and what I'm interested it because I have very colliding interests. I love social/criminal justice but I also love mechatronics engineering, I am considering majoring in criminology at georgmason as my undergraduate degree for law school, or I could just go for my mechatronics enineering and if it sticks I would pursue. The reason I'm trying to decide early on because I want to be efficient with my time and have, suppose more experience early on if that makes sense.~
+
+Everything that I just yapped about. Doesn't matter. I am going to NYIT majoring in electronics and computer engineering. Like literally scratch all that. 
 
 Contact Info:
 
