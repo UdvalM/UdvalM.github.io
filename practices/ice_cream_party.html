@@ -6,14 +6,19 @@
     <script src="js/init.js"></script>
   </head>
 
+  <style>
+    input[type]{
+       background-color:plum;
+    }
+  </style>
   <body>
   <h1>You're Invited to an Ice Cream Party!</h1>
   <h2>Please fill out this form to help us plan.</h2>
     <form action="https://httpbin.org/post" method="POST">
       <label for="email">What is your email address?</label><br>
-      <input type="email" id="email" name="email"><br>
-      <label for-"number">What is your phone number?</label><br>
-      <input type="number" id="number" name="number"><br>
+      <input type="email" id="email" name="email" required><br>
+      <label for="number">What is your phone number?</label><br>
+      <input type="tel" id="number" name="number" required><br>
       <label for="people">How many people will you bring with you to the party?</label><br>
       <input type="number" id="people" name="people"><br>
       <label for="fav_flavor">What is your favorite flavor of ice cream?</label><br>
