@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skull Drawing</title>
+    <style>
+        body {
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: black;
+        }
+        canvas {
+            border: 1px solid white;
+        }
+    </style>
+</head>
+<body>
+    <canvas id="skullCanvas" width="400" height="400"></canvas>
+    <script>
+        const canvas = document.getElementById('skullCanvas');
+        const ctx = canvas.getContext('2d');
+
+        // Set the background to black
+        ctx.fillStyle = 'black';
+        ctx.fillRect(0, 0, canvas.width, canvas.height);
+
+        // Draw the skull (purple)
+        ctx.fillStyle = 'purple';
+        ctx.beginPath();
+        ctx.arc(200, 200, 120, 0, Math.PI * 2); // Skull outline
+        ctx.fill();
+
+        // Draw the eyes (black)
+        ctx.fillStyle = 'black';
+        ctx.beginPath();
+        ctx.arc(170, 170, 20, 0, Math.PI * 2); // Left eye
+        ctx.arc(230, 170, 20, 0, Math.PI * 2); // Right eye
+        ctx.fill();
+
+        // Draw the nose (black)
+        ctx.beginPath();
+        ctx.moveTo(200, 200); // Nose
+        ctx.lineTo(185, 230);
+        ctx.lineTo(215, 230);
+        ctx.closePath();
+        ctx.fill();
+
+        // Draw the mouth (black)
+        ctx.beginPath();
+        ctx.moveTo(160, 260); // Left corner of the mouth
+        ctx.quadraticCurveTo(200, 280, 240, 260); // Smile curve
+        ctx.lineTo(230, 270);
+        ctx.lineTo(170, 270); // Bottom corners of the mouth
+        ctx.closePath();
+        ctx.fill();
+
+        // Teeth (white)
+        ctx.fillStyle = 'white';
+        ctx.beginPath();
+        ctx.rect(175, 260, 10, 20); // Left tooth
+        ctx.rect(190, 260, 10, 20); // Second tooth
+        ctx.rect(205, 260, 10, 20); // Third tooth
+        ctx.rect(220, 260, 10, 20); // Fourth tooth
+        ctx.fill();
+    </script>
+</body>
+</html>
+
