@@ -31,6 +31,7 @@ p {
       text-align: center;
       padding: 14px 16px;
       text-decoration: none;
+      transition: background-color ease 0.5s;
 }
 
 .topnav a:hover {
