@@ -25,6 +25,7 @@ p {
 
 .topnav a {
       float: left;
+      border-right: 2px solid black;
       display: block;
       color: black;
       text-align: center;
