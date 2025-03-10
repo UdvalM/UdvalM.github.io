@@ -1,0 +1,103 @@
+body {
+    background-image: url(https://i.pinimg.com/originals/ab/01/cb/ab01cbba05d8c2500c925ec0f9a0476c.gif);
+    color: white;
+    text-align: center;
+}
+
+@keyframes bounceAnimation {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-15px); }
+}
+
+.emoji {
+    background-color: rgb(247, 209, 194);
+    position: absolute;
+    top: 30%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    overflow: hidden;
+    box-shadow: 30px 30px 35px rgba(0,0,0,0.25);
+
+    animation-name: bounceAnimation;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+
+}
+
+.eyes {
+    display: flex;
+}
+
+.eye {
+    position: absolute;
+    border: solid rgb(34, 35, 35);
+    border-width: 0 15px 15px 0;
+    padding: 17px;
+    border-radius: 10px;
+}
+
+.left {
+    transform: rotate(-45deg);
+    top: 50px;
+    left: 21%;
+}
+
+.right {
+    transform: rotate(135deg);
+    top: 50px;
+    right: 21%;
+}
+
+.blushes {
+    display: flex;
+}
+
+.blush {
+    background-color: rgb(240, 153, 151);
+    height: 60px; 
+    width: 60px;
+    border-radius: 50%;
+    position: absolute;
+}
+
+.bleft {
+    top: 75px;
+    left: 10%;
+}
+
+.bright {
+    top: 75px; 
+    right: 10%;
+}
+
+.mouth{
+    height: 120px;
+    width: 90px;
+    background-color: rgb(34, 35, 35);
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    bottom: 95px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.mouths {
+    background-color: rgb(247, 209, 194);
+    left: 0;
+    right: 0;
+    bottom: 190px;
+    border-radius: 50%;
+    height: 50px;
+    width: 65px;
+    position: absolute;
+    margin: auto;
+    overflow: hidden;
+}
