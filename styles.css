@@ -77,6 +77,14 @@ p {
       object-fit: cover;
 }
 
+.firstquad img {
+      transition: opacity 0.3s ease-in-out;
+}
+
+.firstquad a:hover {
+      opacity: 1; 
+}
+
 .firstquad {
       grid-row: 1;
       grid-column: 3;
