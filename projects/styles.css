@@ -1,33 +1,108 @@
-body{
-  background-color: #af3ff4;
-  font-family: 'PT serif', sans-serif;
+body {
+      background-image: url(https://i.pinimg.com/originals/ab/01/cb/ab01cbba05d8c2500c925ec0f9a0476c.gif);
+      color: #d4a0d4;
 }
-#grid{
-  display:grid;
-  grid-template-columns: 5;
-  Grid-template-rows: 5;
+
+h1, h3, h4, h2 {
+      font-family: "Anton", sans-serif;
 }
-.ygbi {
-  margin: auto;
-  width: 60%;
-  padding: 10px;     
+
+a:visited {
+      color: #d4a0d4;
 }
-#ygbi{
-  grid-row:1;
-  grid-column: 1/5;
+
+a:hover {
+      color: #4c3a4c;
 }
-img {
-  max-width: 100%; 
-  height: auto;    
+
+a:active {
+      color: white;
 }
-#recipes{
-grid-row:3/6;
-grid-column:1/3;
-padding-left: 20px;
-padding-right: 100px;
+
+/* navbar  */
+
+.topnav {
+      overflow: hidden;
+      background-color: #d4a0d4;
+      font-family: "Space Mono", monospace;
+      font-size: 1.1vw;
+      margin: 50px;
 }
-#projects{
-grid-row:3/5;
-grid-column:4/5;
-padding-right: 10px;
+
+.topnav a {
+      float: left;
+      border-right: 2px solid black;
+      display: block;
+      color: black;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      transition: background-color ease 0.5s;
+}
+
+.topnav a:hover {
+      background-color: black;
+      color: #d4a0d4;
+}
+
+/* Button  */
+
+button {
+      background-image: url(https://media.giphy.com/media/l3q2BAs9N0IItUKA0/giphy.gif?cid=ecf05e47ho9lwuiotq7pm1clu7s9xrjlxy7elxf6qmksn0kr&ep=v1_gifs_search&rid=giphy.gif&ct=g);
+      border: 5px solid #d4a0d4;
+      text-align: center;
+      font-size: 30px;
+      font-family: "Space Mono", monospace; 
+      padding: 30px;
+      margin-top: 20px; 
+}
+
+
+/* Grid  */
+
+.grid {
+      display: grid;
+      grid-template-columns: 15% 35% 35% 15%;
+      grid-template-rows: 90%;
+      gap: 24px;
+}
+
+.header1, .header2 {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      white-space: nowrap;
+}
+
+.header1 {
+      grid-column: 1;
+      font-size: 4vw;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      padding-right: 50px;
+}
+
+.header2 {
+      grid-column: 4;
+      font-size: 4vw;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      padding-right: 50px;
+}
+
+.practice {
+      grid-column: 2;
+      grid-row: 1;
+      border-right: 5px solid #d4a0d4;
+}
+
+.projects {
+      grid-column: 3;
+      grid-row: 1;
+}
+
+.practice, .projects {
+      font-family: "Space Mono", monospace;
+      font-size: 2vw;
+      margin: 40px;
 }
