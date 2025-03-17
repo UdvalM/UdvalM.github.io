@@ -3,3 +3,4 @@
 - [Encryption Activity](entries/2ndjournal.md)
 - [Lesson Summary](entries/3rdjournal.md)
 - [Word Press Project](entries/4thjournal.md)
+- [Project Entry](entries/5thjournal.md)
