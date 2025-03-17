@@ -13,15 +13,7 @@ a {
 }
 
 a:visited {
-      color: #d4a0d4;
-}
-
-a:hover {
       color: #4c3a4c;
-}
-
-a:active {
-      color: white;
 }
 
 /* navbar  */
