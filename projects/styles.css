@@ -7,6 +7,11 @@ h1, h3, h4, h2 {
       font-family: "Anton", sans-serif;
 }
 
+a {
+      text-decoration: none;
+      color: #d4a0d4;
+}
+
 a:visited {
       color: #d4a0d4;
 }
