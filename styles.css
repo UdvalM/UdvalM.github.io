@@ -16,8 +16,8 @@ p {
 
 .topnav {
       overflow: hidden;
-      background-color: #d4a0d4;
-      font-family: "Space Mono", monospace;
+		background-color: #d4a0d4;
+		font-family: "Space Mono", monospace;
       font-size: 1.1vw;
       margin: 50px;
 }
@@ -39,26 +39,16 @@ p {
 }
 
 /* Gol Grid */
-
+@media screen and (min-width: 800px){
 .outer-grid {
       display: grid;
       grid-template-areas: 
-        'header1 secondquad firstquad header2'
-        'header1 thirdquad fourthquad header2';
+        'secondquad firstquad'
+        'thirdquad fourthquad';
       grid-template-columns: 15% 35% 35% 15%;
       grid-template-rows: 42% 42%;
       gap: 25px;
-}
-
-@media screen and (max-width: 700px) {
-      .outer-grid {
-        grid-template-areas: 
-        'firstquad'
-        'secondquad'
-        'thirdquaq'
-        'fourthquad';
-      }
-}
+}}
 
 .header1, .header2 {
       display: flex; 
