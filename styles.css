@@ -42,9 +42,22 @@ p {
 
 .outer-grid {
       display: grid;
+      grid-template-areas: 
+        'header1 secondquad firstquad header2'
+        'header1 thirdquad fourthquad header2';
       grid-template-columns: 15% 35% 35% 15%;
       grid-template-rows: 42% 42%;
       gap: 25px;
+}
+
+@media (max-width: 700px) {
+      .outer-grid {
+        grid-template-areas: 
+        'firstquad'
+        'secondquad'
+        'thirdquaq'
+        'fourthquad';
+      }
 }
 
 .header1, .header2 {
@@ -75,14 +88,6 @@ p {
       width: 100%;
       height: 100%;
       object-fit: cover;
-}
-
-.firstquad img {
-      transition: opacity 0.3s ease-in-out;
-}
-
-.firstquad a:hover {
-      opacity: 1; 
 }
 
 .firstquad {
@@ -146,6 +151,7 @@ p {
       width: 100%;
       height: auto;
       object-fit: contain;
+      overflow: hidden;
 }
 
 .logoquad2 {
