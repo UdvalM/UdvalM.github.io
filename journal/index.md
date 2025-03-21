@@ -4,3 +4,4 @@
 - [Lesson Summary](entries/3rdjournal.md)
 - [Word Press Project](entries/4thjournal.md)
 - [Project Entry](entries/5thjournal.md)
+- [Exam Prep](enties/exam_prep.md)
