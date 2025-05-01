@@ -5,3 +5,4 @@
 - [Word Press Project](entries/4thjournal.md)
 - [Project Entry](entries/5thjournal.md)
 - [Exam Prep](entries/exam_prep.md)
+- [Game Proposal](entries/game.md)
