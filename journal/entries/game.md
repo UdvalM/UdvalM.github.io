@@ -9,4 +9,3 @@ Train with supervisor by solving puzzles and fighting by solving puzzles as well
 - What features will you include in your MVP?  
 PLayer is able to move around his plot of land and interact with buildings for each status and acquire items in your inventory. 
 
-[Character Design](udvalm.github.io/infestation/conceptart.html)
