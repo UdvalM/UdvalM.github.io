@@ -79,7 +79,25 @@ function drawScore() {
     ctx.fillText(score, 30,40);
 }
 
+function checkCollision() {
+    //The aabb method
+    let player_min_x = player.x - 20;
+    let player_max_x = player.x + 20;
+    let player_min_y = player.y - 20;
+    let player_max_y = player.y + 20;
 
+    let box_min_x = x;
+    let box_max_x = x + 50;
+    let box_min_y = y;
+    let box_max_y = y + 50;
+
+    if(box_max_y > player_min_y 
+      && box_min_y < player_max_y
+      && box_max_x > player_min_x
+      && box_min_x < player_max_x) {
+      gameRunning = false;
+    }
+}
 
 function animate() {
     if(gameRunning){
@@ -87,10 +105,8 @@ function animate() {
         drawPlayer();
         movePlayer();
         score++;
-        if(score >= 200){
-        stop;
-        }
         drawScore();
+        checkCollision();
 
         // TODO: Add some code here 
         //  that will change the rectangle's position
