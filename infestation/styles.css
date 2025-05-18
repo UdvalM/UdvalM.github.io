@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #2d332d;
+    color: white;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+
+h1, h2 {
+    font-family: 'Anton', sans-serif; 
+}
+    
+p {
+    font-family: 'Space Mono', monospace;
+}
+
+.game-container {
+    position: relative;
+    width: 352px;
+    height: 198px;
+    margin: 0 auto;
+    outline: 5px solid #000000;
+ 
+    transform: scale(3) translateY(50%);
+}
+
+.game-container canvas {
+   image-rendering: pixelated;
+}
