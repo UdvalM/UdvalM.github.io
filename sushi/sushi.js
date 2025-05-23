@@ -22,7 +22,8 @@ let score = 0;
 let bgSpeed = 5;
 let gameRunning = true;
 let animationId = null;
-let lastSpawned = null;
+let frameCount = 0;
+let teethEnabled = false;
 
 //background settings
 let bgX1 = 0;
@@ -123,7 +124,15 @@ function endGame() {
 //MAIN ANIMATION LOOP
 
 function animate() {
+  obstacleSpawnTimer++;
+  teethSpawnTimer++;
   if(gameRunning) {
+
+  frameCount++;
+  if (!teethEnabled && frameCount >= 600) {
+    teethEnabled = true;
+  }
+
   checkCollision();
   //move background
   bgX1 -= bgSpeed;
@@ -187,8 +196,7 @@ function animate() {
 //SPAWNING ENEMIES
 
   //spawn hands
-  obstacleSpawnTimer++;
-  if (obstacleSpawnTimer >= nextObstacleSpawn && lastSpawned !== "hand") {
+  if (obstacleSpawnTimer >= nextObstacleSpawn) {
     obstacles.push({
       x: canvas.width,
       y: fixedY, 
@@ -197,9 +205,6 @@ function animate() {
     });
   obstacleSpawnTimer = 0;
   nextObstacleSpawn = Math.floor(150 + Math.random() * 200);
-  lastSpawned = "hand";
-
-  teethSpawnTimer = -40;
   }
 
   //animate hand flapping
@@ -227,9 +232,8 @@ function animate() {
     player.isJumping = false;
   }
 
-  //spawning mouths 
-  teethSpawnTimer++;
-  if (teethSpawnTimer >= nextTeethSpawn && lastSpawned !== "teeth") {
+  //spawning teeth
+  if (teethEnabled && teethSpawnTimer >= nextTeethSpawn) {
     teeth.push({
       x: canvas.width,
       y: groundY + 20,
@@ -238,9 +242,6 @@ function animate() {
     });
   teethSpawnTimer = 0;
   nextTeethSpawn = Math.floor(150 + Math.random() * 200);
-  lastSpawned = "teeth";
-
-  obstacleSpawned = "teeth";
   }
 
   //remove off-screen
@@ -249,8 +250,8 @@ function animate() {
       teeth.splice(i, 1);
     }
   }
-  }
   animationId = requestAnimationFrame(animate);
+}
 }
 
 //RESETING THE GAME
@@ -278,6 +279,8 @@ function resetGame() {
   sushiFrameTimer = 0;
   handFrame = 0;
   handFrameTimer = 0;
+  frameCount = 0;
+  teethEnabled = false;
 
   //reset score
   score = 0;
@@ -323,4 +326,3 @@ window.addEventListener("keydown", (e) => {
 document.addEventListener("DOMContentLoaded", () => {
   document.getElementById("replayButton").addEventListener("click", resetGame);
 });
-
